@@ -1,4 +1,4 @@
-# Vite Multiple Pages Structure w/ server to retrieve data
+# Vite Multiple Pages Structure w/ server to perform CRUD operations
 
 ### Notes:
 

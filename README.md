@@ -9,7 +9,7 @@
 - Create CRUD operations
 
 ### Objectives:
-- Create
+- Create ✅
 - Read ✅
 - Update
 - Delete

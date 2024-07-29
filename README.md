@@ -1,4 +1,4 @@
-# Vite Multiple Pages Structure w/ server to perform CRUD operations (Studying Material)
+# Vite Multiple Pages Structure w/ server to perform CRUD operations (Learning Material)
 
 ### Notes:
 

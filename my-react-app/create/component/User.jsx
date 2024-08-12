@@ -13,7 +13,7 @@ function User() {
             const response = await axios.post('http://localhost:3000/submit/', { name, email });
 
             if (response.status === 200) {
-                console.log('User created successfully waswasa');
+                console.log('User created successfully');
                 window.location.href = '/testsubmit/';
 
             }

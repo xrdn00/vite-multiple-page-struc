@@ -45,6 +45,26 @@ app.post('/submit/', async (req, res) => {
   }
 });
 
+// Route for updating user information
+app.put('/updateUser/', async (req, res) => {
+  try {
+    
+    const { id, name, email } = req.body;
+    const [updated] = await User.update({ name, email }, {
+      where: { id }
+    });
+
+    // Update user data in the 'users' table
+    if (updated) {
+      res.status(200).send('User updated successfully');
+    } else {
+      res.status(404).send('User not found');
+    }
+  } catch (err) {
+    res.status(500).send('Error updating user');
+  }
+});
+
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');

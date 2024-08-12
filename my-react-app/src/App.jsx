@@ -21,7 +21,7 @@ function App() {
       <ul>
         {Array.isArray(users) && users.map(user => (
           <li key={user.id}>
-            {user.name} - {user.email}
+            {user.id} - {user.name} - {user.email}
           </li>
         ))}
       </ul>
